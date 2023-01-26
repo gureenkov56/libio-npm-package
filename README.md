@@ -1,4 +1,2 @@
-# gulp-start
-Template for starting project with Gulp builder (TS, Scss, compress image and convert to webp)
+# Libio
 
-Build files and start server with watcher by `gulp`
