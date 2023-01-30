@@ -1,7 +1,9 @@
+import { Libio } from "./libio.js";
 
-enum List {
-    Test,
-    Kolk
-}
+const libioEl = document.querySelector('.libios');
 
-console.log(List.Kolk);
+
+const libio = new Libio(libioEl, {
+    showErrorsInConsole: true,
+});
+libio.create();
